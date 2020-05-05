@@ -1,96 +1,112 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>CSS</title>
-</head>
+  </head>
 
-<body>
-
-    <header class="main-header">
-        <h1 class="main-heading">Łukasz Bernacik - Notatki z WTF</h1>
-    </header>
-
+  <body>
     <nav class="main-navigation">
-        <a href="index.html" class="navigation-link">Strona główna</a>
-        <a href="html.html" class="navigation-link">HTML</a>
-        <a href="css.html" class="navigation-link">CSS</a>
-        <a href="materialy.html" class="navigation-link">Materiały</a>
+      <a href="index.html" class="navigation-link">Strona główna</a>
+      <a href="html.html" class="navigation-link">HTML</a>
+      <a href="css.html" class="navigation-link">CSS</a>
+      <a href="materialy.html" class="navigation-link">Materiały</a>
     </nav>
 
+    <header class="main-header">
+      <h1 class="main-heading">Łukasz Bernacik - Notatki z WTF</h1>
+    </header>
+
     <main class="content-wrapper">
+      <section class="overwiev">
+        <h2 class="overwiev-heading">CSS</h2>
+        <img class="overwiev-image" src="css.png" alt="css 3" />
+        <article class="content">
+          <h3 class="content-heading">CSS - Cascading Style Sheets</h3>
+          <p>
+            CSS odpowiadają za prezentację. Wpływają na wygląd elementów HTML na
+            ekranie, wydrukach itp. To właśnie CSS jest odpowiedzialny za to jak
+            pod względem wizualnym prezentuje się nasza strona. Kolor czcionki,
+            tła, wielkość czcionki, wygląd list. To tylko część rzeczy za które
+            odpowiedzialny jest css. Pliki zawierające kod CSS mają rozszerzenie
+            .css
+          </p>
+          <span class="label">Składnia CSS to reguły:</span>
+          <p>
+            selektor &#123;<br />
+            właściwość: wartość;<br />
+            &#125;
+          </p>
+        </article>
+        <article class="content">
+          <h3 class="content-heading">Specyficzność</h3>
+          <p>
+            W CSS żeby dostać się do elementu, który chcemy ostylować, możemy
+            się dostać na kilka sposobów. Poprzez element, klasę, id, styl
+            liniowy albo !important. Każdy z tych sposobów ma inną "siłę".
+          </p>
+          <span class="label">Koleność od najsłabszej reguły:</span>
+          <ol>
+            <li>element</li>
+            <li>klasa</li>
+            <li>id</li>
+            <li>styl liniowy</li>
+            <li>!important</li>
+          </ol>
+        </article>
 
-        <section class="overwiev">
-            <h2 class="overwiev-heading">CSS</h2>
-            <img class="overwiev-image" src="css.png" alt="css 3">
-            <article class="content">
-                <h3 class="content-heading">CSS - Cascading Style Sheets</h3>
-                <p>CSS odpowiadają za prezentację. Wpływają na wygląd elementów HTML na ekranie, wydrukach itp. To właśnie CSS jest odpowiedzialny za to jak pod względem wizualnym prezentuje się nasza strona. Kolor czcionki, tła, wielkość czcionki, wygląd list. To tylko część rzeczy za które odpowiedzialny jest css.  Pliki zawierające kod CSS mają rozszerzenie .css</p>
-                <span class="label">Składnia CSS to reguły:</span>
-                <p>
-                    selektor &#123;<br>
-                    właściwość: wartość;<br>
-                    &#125;
-                </p>
-            </article>
-            <article class="content">
-                <h3 class="content-heading">Specyficzność</h3>
-                <p>W CSS żeby dostać się do elementu, który chcemy ostylować, możemy się dostać na kilka sposobów. Poprzez element, klasę, id, styl liniowy albo !important. Każdy z tych sposobów ma inną "siłę".</p>
-                <span class="label">Koleność od najsłabszej reguły:</span>
-                    <ol>
-                        <li>element</li>
-                        <li>klasa</li>
-                        <li>id</li>
-                        <li>styl liniowy</li>
-                        <li>!important</li>
-                    </ol>
-                
-            </article>
+        <article class="content">
+          <h3 class="content-heading">O klasach</h3>
+          <p>
+            Dobrą praktyką jest dodawanie klasy do wszystkich elementów i
+            unikanie zagnieżdżeń. Nie używamy stylów liniowych i !important
+            ponieważ tworzą bałagan w kodzie i przy dużej stronie możemy się
+            pogubić.
+          </p>
 
-            <article class="content">
-                <h3 class="content-heading">O klasach</h3>
-                <p>Dobrą praktyką jest dodawanie klasy do wszystkich elementów i unikanie zagnieżdżeń. Nie używamy stylów liniowych i !important ponieważ tworzą bałagan w kodzie i przy dużej stronie możemy się pogubić.</p>
-            
-                <span class="label">Nazewnictwo klas:</span>
-                <ul>
-                    <li>używaj pojedynczych słów z j. angielskiego</li>
-                    <li>nazywaj rzeczy zgodnie z ich funkcją na stronie</li>
-                    <li>startuj z małej litery np. header nie Header</li>
-                    <li>nie zczynaj od cyfry</li>
-                    <li>jeśli musisz użyć dwóch słów używaj tzw. kebab case np. news-listing</li>
-                    <li>staraj się, żeby element miał jedną klasę (nie zwiększaj specyficzności bez potrzeby</li>
-                </ul>
-            </article>
-        </section>
+          <span class="label">Nazewnictwo klas:</span>
+          <ul>
+            <li>używaj pojedynczych słów z j. angielskiego</li>
+            <li>nazywaj rzeczy zgodnie z ich funkcją na stronie</li>
+            <li>startuj z małej litery np. header nie Header</li>
+            <li>nie zczynaj od cyfry</li>
+            <li>
+              jeśli musisz użyć dwóch słów używaj tzw. kebab case np.
+              news-listing
+            </li>
+            <li>
+              staraj się, żeby element miał jedną klasę (nie zwiększaj
+              specyficzności bez potrzeby
+            </li>
+          </ul>
+        </article>
+      </section>
 
-        <section class="important-list">
-            <h3 class="label">CSS stylujemy po:</h3>
-            <ul>
-                <li>elementach np. h1</li>
-                <li>klasach np. .content</li>
-                <li>id np. #image</li>
-            </ul>
+      <section class="important-list">
+        <h3 class="label">CSS stylujemy po:</h3>
+        <ul>
+          <li>elementach np. h1</li>
+          <li>klasach np. .content</li>
+          <li>id np. #image</li>
+        </ul>
 
-            <h3 class="label">Ważne informacje:</h3>
-            <ul>
-                <li>html class="name" = css .name</li>
-                <li>html id="name" = css #name</li>
-                <li>stylujemy po klasach (bez zagnieżdżeń)</li>
-                <li>nazywamy klasy po angielsku zgodnie z przeznaczniem</li>
-                <li>tworzymy klasy nawet jeśli mamy jeden element danego typu</li>
-                <li>specyficzność może dać popalić</li>
-                <li>nie używamy !important i stylów inline'owych</li>
-            </ul>
-        </section>
-
+        <h3 class="label">Ważne informacje:</h3>
+        <ul>
+          <li>html class="name" = css .name</li>
+          <li>html id="name" = css #name</li>
+          <li>stylujemy po klasach (bez zagnieżdżeń)</li>
+          <li>nazywamy klasy po angielsku zgodnie z przeznaczniem</li>
+          <li>tworzymy klasy nawet jeśli mamy jeden element danego typu</li>
+          <li>specyficzność może dać popalić</li>
+          <li>nie używamy !important i stylów inline'owych</li>
+        </ul>
+      </section>
     </main>
 
     <footer class="main-footer">
-        <p>Strona stworzona podczas szkolenia WTF: Co ten frontend.</p>
+      <p>Strona stworzona podczas szkolenia WTF: Co ten frontend.</p>
     </footer>
-
-</body>
-
+  </body>
 </html>

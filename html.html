@@ -1,75 +1,85 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>HTML</title>
-</head>
-<body>
-
-    <header class="main-header">
-        <h1 class="main-heading">Łukasz Bernacik - Notatki z WTF</h1>
-    </header>
-
+  </head>
+  <body>
     <nav class="main-navigation">
-        <a href="index.html" class="navigation-link">Strona główna</a>
-        <a href="html.html" class="navigation-link">HTML</a>
-        <a href="css.html" class="navigation-link">CSS</a>
-        <a href="materialy.html" class="navigation-link">Materiały</a>
+      <a href="index.html" class="navigation-link">Strona główna</a>
+      <a href="html.html" class="navigation-link">HTML</a>
+      <a href="css.html" class="navigation-link">CSS</a>
+      <a href="materialy.html" class="navigation-link">Materiały</a>
     </nav>
 
+    <header class="main-header">
+      <h1 class="main-heading">Łukasz Bernacik - Notatki z WTF</h1>
+    </header>
+
     <main class="content-wrapper">
+      <section class="overwiev">
+        <h2 class="overwiev-heading">HTML</h2>
+        <img class="overwiev-image" src="html.png" alt="html 5 image" />
+        <article class="content">
+          <h3 class="content-heading">HTML - HyperText Markup Language</h3>
+          <p>
+            Język HTML to język znaczników. Odpowiada on za właściwe opakowanie
+            treści. To główny szkielet strony internetowej. HTML pokazuje
+            przeglądarce jakie treści ma wyświetlać i jakie jest znacznenie tych
+            treści. To tutaj pokazujemy, która treść jest nagłówkiem, która
+            listą, a która paragrafem. Pliki, zawierające kod HTML maja zwykle
+            rozszerzenie .html
+          </p>
+          <span class="label">Treść to:</span>
+          <ul>
+            <li>Teksty</li>
+            <li>Nagłówki</li>
+            <li>Linki</li>
+            <li>Listy</li>
+            <li>Definicje</li>
+            <li>Obrazki</li>
+            <li>Video</li>
+            <li>Formularze</li>
+            <li>Wszystko co jest nośnikiem informacji</li>
+          </ul>
+        </article>
 
-        <section class="overwiev">
-            <h2 class="overwiev-heading">HTML</h2>
-            <img class="overwiev-image" src="html.png" alt="html 5 image">
-            <article class="content">
-                <h3 class="content-heading">HTML - HyperText Markup Language</h3>
-                <p>Język HTML to język znaczników. Odpowiada on za właściwe opakowanie treści. To główny szkielet strony internetowej. HTML pokazuje przeglądarce jakie treści ma wyświetlać i jakie jest znacznenie tych treści. To tutaj pokazujemy, która treść jest nagłówkiem, która listą, a która paragrafem. Pliki, zawierające kod HTML maja zwykle rozszerzenie .html</p>
-                <span class="label">Treść to:</span>
-                <ul>
-                    <li>Teksty</li>
-                    <li>Nagłówki</li>
-                    <li>Linki</li>
-                    <li>Listy</li>
-                    <li>Definicje</li>
-                    <li>Obrazki</li>
-                    <li>Video</li>
-                    <li>Formularze</li>
-                    <li>Wszystko co jest nośnikiem informacji</li>
-                </ul> 
-            </article>
-            
-
-            <article class="content">
-                <h3 class="content-heading">HTML składa się ze znaczników / tagów / elementów</h3>
-                <p>&lt;znacznik atrybut="wartość"&gt;treść&lt;/znacznik&gt;</p>
-                <p>Uczymy się pisać kod semantyczny. Semantyczny czyli mający znaczenie. Strony, które są napisane poprawnie pod względem semantycznym są lepiej indeksowane przez przeglądarki. Takie strony są także lepsze dla czytników, ktrórych używają osoby niewidome</p>
-            </article>
-
-            
-        </section>
-        <section class="important-list">
-            <h3 class="label">Poznane znaczniki:</h3>
-            <ul>
-                <li>main - główna część dokumentu</li>
-                <li>section - sekcje dokumentu np. tak jak sekcja sportowa w gazecie</li>
-                <li>article - samodzielne treści np. tak jak pojedynczy artykuł w sekcji sportowej</li>
-                <li>header - nagłówek dokumentu / sekcji / artykułu</li>
-                <li>footer - stopka dokumentu / sekcji / artykułu</li>
-                <li>h1 - h6 - tekstowe nagłówki tytułowe dokumentu / sekcji</li>
-                <li>p - paragraf / akapit</li>
-            </ul>
-        </section>
-
-
-
+        <article class="content">
+          <h3 class="content-heading">
+            HTML składa się ze znaczników / tagów / elementów
+          </h3>
+          <p>&lt;znacznik atrybut="wartość"&gt;treść&lt;/znacznik&gt;</p>
+          <p>
+            Uczymy się pisać kod semantyczny. Semantyczny czyli mający
+            znaczenie. Strony, które są napisane poprawnie pod względem
+            semantycznym są lepiej indeksowane przez przeglądarki. Takie strony
+            są także lepsze dla czytników, ktrórych używają osoby niewidome
+          </p>
+        </article>
+      </section>
+      <section class="important-list">
+        <h3 class="label">Poznane znaczniki:</h3>
+        <ul>
+          <li>main - główna część dokumentu</li>
+          <li>
+            section - sekcje dokumentu np. tak jak sekcja sportowa w gazecie
+          </li>
+          <li>
+            article - samodzielne treści np. tak jak pojedynczy artykuł w sekcji
+            sportowej
+          </li>
+          <li>header - nagłówek dokumentu / sekcji / artykułu</li>
+          <li>footer - stopka dokumentu / sekcji / artykułu</li>
+          <li>h1 - h6 - tekstowe nagłówki tytułowe dokumentu / sekcji</li>
+          <li>p - paragraf / akapit</li>
+        </ul>
+      </section>
     </main>
 
     <footer class="main-footer">
-        <p>Strona stworzona podczas szkolenia WTF: Co ten frontend.</p>
+      <p>Strona stworzona podczas szkolenia WTF: Co ten frontend.</p>
     </footer>
-    
-</body>
+  </body>
 </html>

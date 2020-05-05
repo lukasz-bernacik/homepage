@@ -1,89 +1,107 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Notatki WTF</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Notatki WTF</title>
+  </head>
+  <body>
+    <nav class="main-navigation">
+      <a href="index.html" class="navigation-link">Strona główna</a>
+      <a href="html.html" class="navigation-link">HTML</a>
+      <a href="css.html" class="navigation-link">CSS</a>
+      <a href="materialy.html" class="navigation-link">Materiały</a>
+    </nav>
 
-  <header class="main-header">
-    <h1 class="main-heading">Łukasz Bernacik - Notatki z WTF</h1>
-  </header>
+    <header class="main-header">
+      <h1 class="main-heading">Łukasz Bernacik - Notatki z WTF</h1>
+    </header>
 
-  <nav class="main-navigation">
-    <a href="index.html" class="navigation-link">Strona główna</a>
-    <a href="html.html" class="navigation-link">HTML</a>
-    <a href="css.html" class="navigation-link">CSS</a>
-    <a href="materialy.html" class="navigation-link">Materiały</a>
-  </nav>
+    <main class="content-wrapper">
+      <section class="about">
+        <h2 class="overwiev-heading">Kim jestem</h2>
+          <p class="about-text">
+            Cześć mam na imię Łukasz i jestem uczestnikiem szkolenia WTF: Co Ten
+            Frontend. Prywatnie mąż i ojciec dwójki cudownych dzieciaków.
+            <b>Dlaczego uczę się frontendu?</b> Programowanie to coś co ciągnie
+            się za mną już długi czas. Robiłem kilka podejść do nauki różnych
+            języków porgramowania, a także do tworzenia stron. Jednak bardzo
+            szybko się zniechęcałem albo uznawałem, że jednak będę uczył się
+            innego języka. Teraz postanowiłem, że będzie inaczej i, że tym razem
+            mi się uda. Chcę znaleźć pracę we frontendzie i dlatefo sięgnąłem po
+            szkolenie Maćka Korsana WTF: Co Ten Frontend
+          </p>
+          <img class="about-image" src="Photo.jpg" alt="Moje zdjęcie" />
+      </section>
 
-  <main class="content-wrapper">
+      <section class="overwiev">
+        <h2 class="overwiev-heading">Streszczenie tygodni</h2>
+        <article class="content">
+          <h3 class="content-heading">Tydzień I</h3>
+          <p>
+            W tym tygodniu poznaliśmy ogólne zasady obowiązujące na szkoleniu.
+            Dowiedzieliśmy się czym jest frontend, a także z jakich narzędzi
+            będziemy korzystać podczas szkolenia
+          </p>
+          <section class="content-list">
+            <h4>Lista lekcji:</h4>
+            <ol>
+              <li>Wstęp do kursu + zasady</li>
+              <li>Czym jest frontend</li>
+              <li>Narzędzia i grupy</li>
+              <li>Ścieżka rozwoju</li>
+              <li>Konfiguracja Mac / Windows / Linux</li>
+              <li>Mój pierwszy projekt</li>
+            </ol>
+          </section>
+        </article>
+        <article class="content">
+          <h3 class="content-heading">Tydzień II</h3>
+          <p>
+            Dowiedzieliśmy się jakie są warstwy strony internetowej. Poznaliśmy
+            pierwsze znacznik język HTML i selektory CSS. Dowiedzieliśmy się jak
+            można podglądać jak zrobione są inne strony
+          </p>
+          <section class="content-list">
+            <h4>Lista lekcji:</h4>
+            <ol>
+              <li>Warstwy strony internetowej</li>
+              <li>WTF: HTML</li>
+              <li>WTF: CSS</li>
+              <li>Magia programowania</li>
+              <li>DevTools: podglądamy!</li>
+            </ol>
+          </section>
+        </article>
+        <article class="content">
+          <h3 class="content-heading">Tydzień III</h3>
+          <p>
+            Rozwijamy wiedzę o HTML i CSS. W tym tygodniu poznaliśmy też
+            JavaScript oraz terminal. Poznaliśmy zasadę działania internetu i
+            przeglądarki. Dowiedzieliśmy się jak organizować pracę, żeby widzieć
+            czy robimy postępy
+          </p>
+          <section class="content-list">
+            <h4>Lista lekcji:</h4>
+            <ol>
+              <li>Kanban</li>
+              <li>WTF: HTML II</li>
+              <li>Opowieść o wężu, kebabie, wielbłądzie i Pascalu</li>
+              <li>WTF: CSS II</li>
+              <li>Jak działa Internet i przeglądarka</li>
+              <li>WTF: JavaScript</li>
+              <li>Terminal</li>
+            </ol>
+          </section>
+        </article>
+      </section>
+    </main>
 
-    <section class="about">
-      <h2 class="overwiev-heading">Kim jestem</h2>
-      <div class="about-section">
-        <p class="about-text">Cześć mam na imię Łukasz i jestem uczestnikiem szkolenia WTF: Co Ten Frontend. Prywatnie mąż i ojciec dwójki cudownych dzieciaków. <b>Dlaczego uczę się frontendu?</b> Programowanie to coś co ciągnie się za mną już długi czas. Robiłem kilka podejść do nauki różnych języków porgramowania, a także do tworzenia stron. Jednak bardzo szybko się zniechęcałem albo uznawałem, że jednak będę uczył się innego języka. Teraz postanowiłem, że będzie inaczej i, że tym razem mi się uda. Chcę znaleźć pracę we frontendzie i dlatefo sięgnąłem po szkolenie Maćka Korsana WTF: Co Ten Frontend</p>
-        <img class="about-image" src="Photo.jpg" alt="Moje zdjęcie">
-    </div>
-    </section>
+    <footer class="main-footer">
+      <p>Strona stworzona podczas szkolenia WTF: Co ten frontend.</p>
+    </footer>
 
-    <section class="overwiev">
-      <h2 class="overwiev-heading">Streszczenie tygodni</h2>
-      <article class="content">
-        <h3 class="content-heading">Tydzień I</h3>
-        <p>W tym tygodniu poznaliśmy ogólne zasady obowiązujące na szkoleniu. Dowiedzieliśmy się czym jest frontend, a także z jakich narzędzi będziemy korzystać podczas szkolenia</p>
-        <section class="content-list">
-          <h4>Lista lekcji:</h4>
-          <ol>
-            <li>Wstęp do kursu + zasady</li>
-            <li>Czym jest frontend</li>
-            <li>Narzędzia i grupy</li>
-            <li>Ścieżka rozwoju</li>
-            <li>Konfiguracja Mac / Windows / Linux</li>
-            <li>Mój pierwszy projekt</li>
-          </ol>
-        </section>
-      </article>
-      <article class="content">
-        <h3 class="content-heading">Tydzień II</h3>
-        <p>Dowiedzieliśmy się jakie są warstwy strony internetowej. Poznaliśmy pierwsze znacznik język HTML i selektory CSS. Dowiedzieliśmy się jak można podglądać jak zrobione są inne strony</p>
-        <section class="content-list">
-          <h4>Lista lekcji:</h4>
-          <ol>
-            <li>Warstwy strony internetowej</li>
-            <li>WTF: HTML</li>
-            <li>WTF: CSS</li>
-            <li>Magia programowania</li>
-            <li>DevTools: podglądamy!</li>
-          </ol>
-        </section>
-      </article>
-      <article class="content">
-        <h3 class="content-heading">Tydzień III</h3>
-        <p>Rozwijamy wiedzę o HTML i CSS. W tym tygodniu poznaliśmy też JavaScript oraz terminal. Poznaliśmy zasadę działania internetu i przeglądarki. Dowiedzieliśmy się jak organizować pracę, żeby widzieć czy robimy postępy</p>
-        <section class="content-list">
-          <h4>Lista lekcji:</h4>
-          <ol>
-            <li>Kanban</li>
-            <li>WTF: HTML II</li>
-            <li>Opowieść o wężu, kebabie, wielbłądzie i Pascalu</li>
-            <li>WTF: CSS II</li>
-            <li>Jak działa Internet i przeglądarka</li>
-            <li>WTF: JavaScript</li>
-            <li>Terminal</li>
-          </ol>
-        </section>
-      </article>
-    </section>
-
-  </main>
-
-  <footer class="main-footer">
-    <p>Strona stworzona podczas szkolenia WTF: Co ten frontend.</p>
-  </footer>
- 
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
