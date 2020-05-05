@@ -33,7 +33,7 @@ body {
   color: #fdfffc;
 }
 
-.main-header {
+.showcase {
   background-image: url(banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@ body {
   position: relative;
 }
 
-.main-heading {
+.showcase__heading {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -94,7 +94,7 @@ body {
   color: #220c10;
 }
 
-.main-footer {
+.footer {
   background: #220c10;
   color: #f0a202;
   text-align: center;
