@@ -57,6 +57,19 @@ body {
   background: #fdfffc;
 }
 
+.about__text {
+    width: 60%;
+    float: left;
+    margin-right: 10%;
+    margin-left: 10%;
+    line-height: 2em;
+  }
+  
+  .about__image {
+    height: 200px;
+  }
+  
+
 .overwiev-heading {
   text-align: center;
   margin-bottom: 50px;
@@ -102,14 +115,3 @@ body {
   padding-bottom: 5px;
 }
 
-.about-text {
-  width: 60%;
-  float: left;
-  margin-right: 10%;
-  margin-left: 10%;
-  line-height: 2em;
-}
-
-.about-image {
-  height: 200px;
-}
