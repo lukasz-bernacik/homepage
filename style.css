@@ -57,6 +57,12 @@ body {
   background: #fdfffc;
 }
 
+.about__heading {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
 .about__text {
     width: 60%;
     float: left;
@@ -70,13 +76,13 @@ body {
   }
   
 
-.overwiev-heading {
+.overwiev__heading {
   text-align: center;
   margin-bottom: 50px;
   margin-top: 50px;
 }
 
-.overwiev-image {
+.overwiev__image {
   display: block;
   margin: 15px auto 20px auto;
   height: 200px;
@@ -91,14 +97,14 @@ body {
   color: #011638;
 }
 
-.content-heading {
+.content__heading {
   text-decoration: underline;
   text-align: center;
   margin-bottom: 40px;
   font-size: 24px;
 }
 
-.important-list {
+.important {
   margin: 0 auto;
   background: #f0a202;
   padding: 20px 20px;
