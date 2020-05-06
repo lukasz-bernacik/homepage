@@ -95,6 +95,7 @@ body {
   margin-bottom: 20px;
   border-radius: 10px;
   color: #011638;
+  max-width: 1000px;
 }
 
 .content__heading {
@@ -111,6 +112,7 @@ body {
   margin-bottom: 20px;
   border-radius: 10px;
   color: #220c10;
+  max-width: 1000px;
 }
 
 .footer {
