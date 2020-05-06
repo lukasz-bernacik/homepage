@@ -8,10 +8,14 @@ body {
 
 .navigation {
   height: 80px;
+  width: 90%;
   background-color: #011638;
   box-sizing: border-box;
   padding-top: 30px;
   text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .navigation__link {
@@ -34,6 +38,7 @@ body {
 }
 
 .showcase {
+  margin-top: 80px;
   background-image: url(banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
