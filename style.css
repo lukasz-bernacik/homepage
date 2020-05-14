@@ -38,11 +38,10 @@ body {
 }
 
 .showcase {
-  margin-top: 80px;
   background-image: url(banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 380px;
   position: relative;
 }
 
