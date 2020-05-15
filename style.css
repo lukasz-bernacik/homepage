@@ -15,7 +15,7 @@ body {
 .navigation {
   height: 80px;
   width: 90%;
-  background-color: rgba(1, 22, 56, 0.904);
+  background-color: rgba(47, 71, 102, 0.863);
   box-sizing: border-box;
   padding-top: 30px;
   text-align: center;
@@ -32,11 +32,11 @@ body {
 }
 
 .navigation__link:hover {
-  color: #f0a202;
+  color: #ee6c4d;
 }
 
 .navigation__link--active {
-  color: #f0a202;
+  color: #ee6c4d;
 }
 
 .navigation__link--active:hover {
@@ -58,7 +58,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #f0a202;
+  color: #ee6c4d;
   font-size: 38px;
 }
 
@@ -133,8 +133,8 @@ body {
 }
 
 .footer {
-  background: #220c10;
-  color: #f0a202;
+  background: #2f4766;
+  color: #e0fbfc;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
