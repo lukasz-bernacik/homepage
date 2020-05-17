@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
+
 html {
   box-sizing: border-box;
 }
@@ -12,7 +14,7 @@ body {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .about__heading {
@@ -78,6 +80,12 @@ body {
   color: #faf9f9;
 }
 
+.hero__logo {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 20px;
+}
+
 .hero__wrapper {
   width: 80%;
   height: 80px;
@@ -106,6 +114,7 @@ body {
   color: #faf9f9;
   text-decoration: none;
   margin-left: 30px;
+  font-size: 18px;
 }
 
 
@@ -119,4 +128,35 @@ body {
   display: block;
   margin: 15px auto 20px auto;
   height: 200px;
+}
+
+.welcome {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.welcome__heading {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.welcome__image {
+  max-width: 700px;
+}
+
+.welcome__paragraph {
+  margin-top: 40px;
+  line-height: 30px;
+}
+
+.welcome__subheading {
+  font-size: 26px;
+}
+
+.welcome__wrapper {
+  padding-right: 100px;
 }
