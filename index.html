@@ -3,22 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Notatki WTF</title>
   </head>
   <body>
-    <nav class="navigation">
-      <a class="navigation__link navigation__link--active" href="index.html"
-        >Strona główna</a
-      >
-      <a class="navigation__link" href="html.html">HTML</a>
-      <a class="navigation__link" href="css.html">CSS</a>
-      <a class="navigation__link" href="materialy.html">Materiały</a>
-    </nav>
-
-    <header class="showcase">
-      <h1 class="showcase__heading">Łukasz Bernacik - Notatki z WTF</h1>
+    <header class="hero">
+      <div class="hero__wrapper">
+        <p class="hero__logo">ŁB Future Frontend Jedi</p>
+        <nav class="navigation">
+          <a class="navigation__link navigation__link--active" href="index.html"
+            >Strona główna</a
+          >
+          <a class="navigation__link" href="html.html">HTML</a>
+          <a class="navigation__link" href="css.html">CSS</a>
+          <a class="navigation__link" href="materialy.html">Materiały</a>
+        </nav>
+      </div>
+      <section class="welcome">
+        <div class="welcome__wrapper">
+          <h1 class="welcome__heading">Witaj na mojej stronie!</h1>
+          <span class="welcome__subheading welcome__subheading--js"></span>
+          <p class="welcome__paragraph">
+            Od niedawna uczę się frontentu, a ta strona to efekty mojej pracy.
+            Uczyłem się z różnych źródeł z raczej kiepskimi efektami, dlatego
+            sięgnąłem po szkolenie Maćka Korsana WTF: Co Ten Frontend.
+          </p>
+        </div>
+        <img
+          class="welcome__image"
+          src="./images/hero-image.png"
+          alt="html i css"
+        />
+      </section>
     </header>
 
     <main class="content-wrapper">
@@ -91,7 +108,9 @@
             <ol class="list__ordered">
               <li class="list__item">Kanban</li>
               <li class="list__item">WTF: HTML II</li>
-              <li class="list__item">Opowieść o wężu, kebabie, wielbłądzie i Pascalu</li>
+              <li class="list__item">
+                Opowieść o wężu, kebabie, wielbłądzie i Pascalu
+              </li>
               <li class="list__item">WTF: CSS II</li>
               <li class="list__item">Jak działa Internet i przeglądarka</li>
               <li class="list__item">WTF: JavaScript</li>
@@ -103,7 +122,9 @@
     </main>
 
     <footer class="footer">
-      <p class="footer__text">Strona stworzona podczas szkolenia WTF: Co ten frontend.</p>
+      <p class="footer__text">
+        Strona stworzona podczas szkolenia WTF: Co ten frontend.
+      </p>
     </footer>
 
     <script src="script.js"></script>
