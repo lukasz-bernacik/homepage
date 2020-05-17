@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap");
 
 html {
   box-sizing: border-box;
@@ -14,7 +14,7 @@ body {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .about__heading {
@@ -68,7 +68,12 @@ body {
 }
 
 .footer {
-  color: #e0fbfc;
+  background: linear-gradient(
+    270deg,
+    rgba(91, 199, 238, 1) 16%,
+    rgba(103, 200, 189, 1) 52%
+  );
+  color: #faf9f9;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -76,7 +81,11 @@ body {
 
 .hero {
   width: 100%;
-  background: linear-gradient(270deg, rgba(91,199,238,1) 16%, rgba(103,200,189,1) 52%);
+  background: linear-gradient(
+    270deg,
+    rgba(91, 199, 238, 1) 16%,
+    rgba(103, 200, 189, 1) 52%
+  );
   color: #faf9f9;
 }
 
@@ -95,7 +104,6 @@ body {
   justify-content: space-between;
 }
 
-
 .important {
   margin: 0 auto;
   background: #f0a202;
@@ -107,7 +115,6 @@ body {
 }
 
 .navigation {
-  
 }
 
 .navigation__link {
@@ -116,7 +123,6 @@ body {
   margin-left: 30px;
   font-size: 18px;
 }
-
 
 .overview__heading {
   text-align: center;
