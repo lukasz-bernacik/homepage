@@ -17,6 +17,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.education {
+  text-align: center;
+  color: #393E41;
+  font-size: 20px;
+}
+
 .footer {
   background: linear-gradient(
     270deg,
@@ -52,6 +58,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.main-content {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 80px;
 }
 
 .navigation {
