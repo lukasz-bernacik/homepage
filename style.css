@@ -19,8 +19,9 @@ body {
 
 .education {
   text-align: center;
-  color: #393E41;
+  color: #393e41;
   font-size: 20px;
+  margin-bottom: 100px;
 }
 
 .footer {
@@ -86,6 +87,38 @@ body {
   display: block;
   margin: 15px auto 20px auto;
   height: 200px;
+}
+
+.subject {
+  width: 20%;
+  border: 1px #393e41 solid;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.subject__description {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 70px;
+}
+
+.subject__image {
+  width: 50%;
+}
+
+.subject__link {
+  font-size: 18px;
+  color: #393e41;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.subject-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
 }
 
 .welcome {
