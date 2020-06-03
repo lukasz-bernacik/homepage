@@ -5,37 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
     <title>Notatki WTF</title>
   </head>
   <body>
-    <header class="hero">
-      <div class="hero__wrapper">
-        <p class="hero__logo">ŁB future frontend Jedi</p>
+    <header class="header">
+      <div class="header__container">
         <nav class="navigation">
-          <a class="navigation__link navigation__link--active" href="index.html"
-            >Strona główna</a
+          <a href="index2.html" class="navigation__logo"
+            >Future Frontend Jedi</a
           >
-          <a class="navigation__link" href="html.html">HTML</a>
-          <a class="navigation__link" href="css.html">CSS</a>
-          <a class="navigation__link" href="materialy.html">Materiały</a>
+          <div class="navigation__hamburger navigation__hamburger--js">
+            <i class="fas fa-bars header__bars"></i>
+          </div>
+          <div class="menu menu--js">
+            <a href="index.html" class="menu__link">Start</a>
+            <a href="#" class="menu__link">HTML</a>
+            <a href="#" class="menu__link">CSS</a>
+            <a href="#" class="menu__link">Materiały</a>
+          </div>
         </nav>
       </div>
-      <section class="welcome">
-        <div class="welcome__wrapper">
-          <h1 class="welcome__heading">Witaj na mojej stronie!</h1>
-          <span class="welcome__subheading welcome__subheading--js"></span>
-          <p class="welcome__paragraph">
-            Od niedawna uczę się frontentu, a ta strona to efekty mojej pracy.
-            Uczyłem się z różnych źródeł z raczej kiepskimi efektami, dlatego
-            sięgnąłem po szkolenie Maćka Korsana WTF: Co Ten Frontend.
-          </p>
-        </div>
-        <img
-          class="welcome__image"
-          src="./images/hero-image.png"
-          alt="html i css"
-        />
-      </section>
     </header>
 
     <main class="main-content">
@@ -104,8 +97,18 @@
           <section class="links">
             <h3 class="links__heading">W sieci:</h3>
             <div class="links__wrapper">
-              <a href="" class="links__item"><img src="./images/github.png" alt="git hub logo" class="links__image"></a>
-              <a href="" class="links__item"><img src="./images/facebook.png" alt="facebook logo" class="links__image"></a>
+              <a href="" class="links__item"
+                ><img
+                  src="./images/github.png"
+                  alt="git hub logo"
+                  class="links__image"
+              /></a>
+              <a href="" class="links__item"
+                ><img
+                  src="./images/facebook.png"
+                  alt="facebook logo"
+                  class="links__image"
+              /></a>
             </div>
           </section>
           <div class="card">
@@ -148,17 +151,22 @@
           <article class="software">
             <h3 class="software__heading">Strony:</h3>
             <ul class="unordered-list">
-              <li class="unordered-list__item">https://www.w3.org/TR/html52/</li>
+              <li class="unordered-list__item">
+                https://www.w3.org/TR/html52/
+              </li>
               <li class="unordered-list__item">https://www.w3.org/TR/CSS/</li>
-              <li class="unordered-list__item">https://validator.w3.org/nu/#textarea</li>
+              <li class="unordered-list__item">
+                https://validator.w3.org/nu/#textarea
+              </li>
               <li class="unordered-list__item">https://roadmap.sh/frontend</li>
-              <li class="unordered-list__item">https://www.freeformatter.com/html-entities.html</li>
+              <li class="unordered-list__item">
+                https://www.freeformatter.com/html-entities.html
+              </li>
               <li class="unordered-list__item">https://css-tricks.com/</li>
             </ul>
           </article>
         </div>
       </section>
-     
     </main>
 
     <footer class="footer">
