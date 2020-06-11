@@ -1,0 +1,23 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "homepage project made at wtf training",
+  "main": "script.js",
+  "scripts": {
+    "sass": "npx node-sass -w scss/style.scss style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasz-bernacik/homepage.git"
+  },
+  "author": "Łukasz Bernacik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukasz-bernacik/homepage/issues"
+  },
+  "homepage": "https://github.com/lukasz-bernacik/homepage#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
