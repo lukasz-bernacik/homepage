@@ -1,0 +1,74 @@
+.about {
+    width: 100%;
+    margin: 0 0 50px 0;
+    background: linear-gradient(270deg, #5bc7ee 16%, #67c8bd 52%);
+    &__container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 30px 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__heading {
+      text-align: center;
+      color: #faf9f9;
+      margin-top: 0;
+      margin-bottom: 50px;
+      font-size: 30px;
+    }
+    &__picture {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      @media (min-width: 1000px) {
+        align-self: center;
+        justify-self: center;
+      }
+    }
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      @media (min-width: 1000px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+      }
+    }
+  }
+  
+  .description {
+    &__header {
+      color: #faf9f9;
+      margin-bottom: 20px;
+    }
+    &__name {
+      font-size: 24px;
+      letter-spacing: 3px;
+      margin-bottom: 0px;
+      line-height: 0px;
+    }
+    &__position {
+      font-size: 18px;
+      letter-spacing: 3px;
+    }
+    &__paragraph {
+      font-size: 16px;
+      line-height: 24px;
+      color: #faf9f9;
+    }
+  }
+  
+  .social {
+    margin-top: 25px;
+    &__icon {
+      font-size: 32px;
+      color: #faf9f9;
+    }
+    &__link {
+      text-decoration: none;
+      margin: 0 20px;
+    }
+  }
